@@ -1,0 +1,13 @@
+(env
+(dev
+(flags (:standard -warn-error -A))))
+
+
+(executable
+ (name main)
+ (libraries gmp apron apron.octMPQ apron.polkaMPQ apron.t1pMPQ 
+ ctypes ctypes.foreign)
+(flags
+   (:standard -w -58))
+ (preprocess
+  (pps ppx_inline_test)))
