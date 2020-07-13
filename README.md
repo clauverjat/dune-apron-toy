@@ -5,6 +5,7 @@ Build and execute executable with
 dune clean
 dune exec ./bin/main.exe
 ```
+
 It should print something like that :
 ```
 Using Library: polka, strict mode, version 3.0 with NUMINT_MPZ
